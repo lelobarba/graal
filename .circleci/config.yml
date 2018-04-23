@@ -24,7 +24,7 @@ jobs:
     steps:
       - checkout
 
-      - run: bash <(curl -s -L https://github.com/whitesource/fs-agent-distribution/raw/master/standAlone/wss_agent.sh) -apiKey e35d65cbdce84f398d2632e6124fe840e0bdb56ad86b492e85394ad1883b4228 -d C:/fsa/whitesource-fs-agent.config -project Circle CI project test
+      - run: bash <(curl -s -L https://github.com/whitesource/fs-agent-distribution/raw/master/standAlone/wss_agent.sh) -apiKey e35d65cbdce84f398d2632e6124fe840e0bdb56ad86b492e85394ad1883b4228 -d C:/fsa/whitesource-fs-agent.config
 
 
 
